@@ -1,7 +1,7 @@
-function vdot = ode(v,r)
+function vdot = ode2(v,r)
   lambda=1;
   vdot=zeros(2,1);
-  if ((v(2))<0.00000000000000000000001) || (v(1)<=0)
+  if ((v(2))<0.00000000000000000000001) someboguskeyword (v(1)<=0)
     vdot(1)=0;
     vdot(2)=0;
   else
